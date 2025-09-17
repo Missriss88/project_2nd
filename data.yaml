@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['blackheads', 'dark spot', 'nodules', 'papules', 'pustules', 'whiteheads']
+
+roboflow:
+  workspace: test-l2t0m
+  project: acne-kbm0q-i9ic7
+  version: 1
+  license: Private
+  url: https://universe.roboflow.com/test-l2t0m/acne-kbm0q-i9ic7/dataset/1
