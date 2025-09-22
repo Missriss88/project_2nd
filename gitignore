@@ -1,0 +1,2 @@
+# Ignore API keys and other sensitive information
+.env
