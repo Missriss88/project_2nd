@@ -1,13 +1,17 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+train: train/images
+val: valid/images
+test: test/images
 
-nc: 6
-names: ['blackheads', 'dark spot', 'nodules', 'papules', 'pustules', 'whiteheads']
-
-roboflow:
-  workspace: test-l2t0m
-  project: acne-kbm0q-i9ic7
-  version: 1
-  license: Private
-  url: https://universe.roboflow.com/test-l2t0m/acne-kbm0q-i9ic7/dataset/1
+names: 
+  0: Acne
+  1: Blackhead
+  2: Cystic
+  3: Flat_wart
+  4: Folliculitis
+  5: Keloid
+  6: Milium
+  7: Papular
+  8: Purulent
+  9: Scars
+  10: Sebo-crystan-conglo
+  11: Whitehead

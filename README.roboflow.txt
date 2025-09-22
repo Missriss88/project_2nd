@@ -1,8 +1,8 @@
 
-Acne - v1 2025-09-12 9:02am
+acne - v3 Class_changed_ver
 ==============================
 
-This dataset was exported via roboflow.com on September 16, 2025 at 6:03 AM GMT
+This dataset was exported via roboflow.com on September 19, 2025 at 12:40 AM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,11 +17,16 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 929 images.
-Acne are annotated in YOLOv11 format.
+The dataset includes 22810 images.
+Acne are annotated in YOLOv8 Oriented Object Detection format.
 
 The following pre-processing was applied to each image:
+* Auto-orientation of pixel data (with EXIF-orientation stripping)
+* Auto-contrast via histogram equalization
 
-No image augmentation techniques were applied.
+The following augmentation was applied to create 3 versions of each source image:
+* Random rotation of between -15 and +15 degrees
+* Random brigthness adjustment of between -25 and +25 percent
+* Salt and pepper noise was applied to 1.92 percent of pixels
 
 
