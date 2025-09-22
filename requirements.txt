@@ -1,10 +1,10 @@
-streamlit_folium st_folium
+streamlit
+streamlit-folium
 folium
-ios
-dotenv load_dotenv
-ultralytics YOLO
-PIL Image
+python-dotenv
+ultralytics
+Pillow
 numpy
-icv2
+opencv-python-headless
 pandas
 requests
