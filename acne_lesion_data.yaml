@@ -1,0 +1,11 @@
+names:
+- cyst
+- nodule
+- comedone
+- papule
+- pustule
+nc: 5
+path: c:\Users\Admin\work space\2nd\Acne-1
+test: test/images
+train: train/images
+val: valid\images
