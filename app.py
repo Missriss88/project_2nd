@@ -92,7 +92,7 @@ COSMETIC_RECOMMENDATION_MAP = {
 }
 
 # 모델 파일 경로 지정
-DETECTION_MODEL_PATH = r'https://github.com/Missriss88/project_2nd/blob/Missriss88-patch-2/best.pt'
+DETECTION_MODEL_PATH = r'best.pt'
 
 try:
     detection_model = load_yolo_model(DETECTION_MODEL_PATH)
