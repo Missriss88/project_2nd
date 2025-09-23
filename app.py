@@ -216,7 +216,7 @@ def get_coords_by_keyword(place_name):
     카카오맵 '키워드' 검색 API를 사용해 장소명의 대표 좌표를 가져옵니다.
     (주소 검색 API보다 안정적)
     """
-    url = "https://dapi.kakao.com/v2/local/search/keyword.json"
+    url = "http://dapi.kakao.com/v2/local/search/keyword.json"
     params = {"query": place_name, "size": 1} # 가장 정확도가 높은 1개의 결과만 요청
     headers = {"Authorization": f"KakaoAK {KAKAO_MAP_API_KEY}"}
     
@@ -239,7 +239,7 @@ def find_nearby_clinics_kakao(keyword="피부과", lat="37.5665", lng="126.9780"
     카카오맵 키워드 검색 API를 사용해 주변 장소를 검색합니다.
     (api_key 인자 제거, 전역 변수 KAKAO_MAP_API_KEY 직접 사용)
     """
-    url = "https://dapi.kakao.com/v2/local/search/keyword.json"
+    url = "http://dapi.kakao.com/v2/local/search/keyword.json"
     params = {
         "query": keyword, "y": lat, "x": lng, "radius": 3000, "size": 15
     }
