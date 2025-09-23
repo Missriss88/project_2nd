@@ -8,3 +8,6 @@ numpy
 opencv-python-headless
 pandas
 requests
+
+streamlit-folium>=0.17.0
+folium>=0.14.0
