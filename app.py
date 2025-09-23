@@ -92,7 +92,7 @@ COSMETIC_RECOMMENDATION_MAP = {
 }
 
 # 모델 파일 경로 지정
-DETECTION_MODEL_PATH = r'C:/Users/Admin/Desktop/2차프젝_데이터셋 변경 후/runs/obb/train/weights/best.pt'
+DETECTION_MODEL_PATH = r'https://github.com/Missriss88/project_2nd/blob/Missriss88-patch-2/best.pt'
 
 try:
     detection_model = load_yolo_model(DETECTION_MODEL_PATH)
